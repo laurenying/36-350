@@ -5,3 +5,4 @@ generate_data=function(n,p){
   responses=rnorm(n)
   return (list(covariates,responses))
 }
+ 
