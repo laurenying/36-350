@@ -29,5 +29,9 @@ run_simulation=function(n_trials, n, p, cutoff){
     p.vals=c(p.vals,pval)
   }
   hist(p.vals)
-  
+}
+for (i in n){
+  for (j in p){
+    run_simulation(n_trails,i,j,cutoff)
+  }
 }
